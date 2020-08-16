@@ -1,0 +1,450 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: lato;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 125px;
+	background-color: #f6f9f9;
+}
+.logo{
+	background-image: url(../image/Strict.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 165px;
+	text-align: left;
+
+
+}
+.navbar{
+width: 45%;
+text-align: right;
+}
+.navbar ul li{
+	display: inline-block;
+
+}
+.navbar ul li a{
+	margin-left: 30px;
+	text-decoration: none;
+	color: #2d3950;
+	font-weight: bold;
+}
+.navbar ul li a:hover{
+	font-weight: 900;
+	transition: .3s;
+}
+#banner{
+	background-image: url(../image/Strict.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+
+	
+
+}
+.banner{
+	
+	margin: 0 auto;
+		
+}
+.title{
+	font-size: 120px;
+	font-weight: bold;
+	color:white;
+	padding-bottom: 20px;
+	
+
+}
+.banner span{
+	display: block;
+	border-bottom:  2px solid #15a4fa;
+	width: 600px;
+	margin: 0 auto;
+	
+
+}
+.banner p{
+font-size: 20px;
+padding: 20px;
+color:white;
+
+}
+.banner button{
+	padding: 25px 20px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	color: white;
+	margin-top: 40px;
+	cursor: pointer;
+	border-radius: 10px;
+	position: relative;
+	z-index: 1;
+}
+.banner button::after{
+	content: '';
+	background-color: #15a4fa;
+	border-radius: 10px;
+	height: 100%;
+	width: 00%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	position: absolute;
+}
+.banner button:hover::after{
+	transition: .6s;
+		width: 100%;
+
+}
+.banner button:focus{
+		outline: none;
+
+}
+.icon a{
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	display: block;
+	margin-top: 30px;
+	transform: translate(0px, 60px);
+	-webkit-transform: translate(0px, 60px);
+	-moz-transform: translate(0px, 60px);
+	animation: icon;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes icon{
+0%{
+transform: translate(0px, 60px);
+	-webkit-transform: translate(0px, 60px);
+	-moz-transform: translate(0px, 60px);
+	}
+100%{
+	transform: translate(0px, 160px);
+	-webkit-transform: translate(0px, 160px);
+	-moz-transform: translate(0px, 160px);
+	}
+}
+section #simple{
+	background-color: #f6f9f9;
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+	
+	border: 1px solid red;
+}
+#simple .simple{
+	padding-bottom: 80px 260px;
+	align-items: center;
+}
+
+#simple .simple h1,p{
+	font-size: 40px;
+	color: #2d3950;
+	width: 1110px;	
+	margin: 80px auto 0px;
+	text-align: center;
+}
+#simple .simple p{
+	color: #999999;
+	font-size: 20px;
+	margin-top: 40px;
+}
+.box {
+	
+	min-height: 100px;
+
+}
+.box .wrap{
+	display: flex;
+	justify-content: space-between;
+	
+	padding: 50px 150px;
+}
+.box .wrap .box1{
+	width: 30%;
+	padding: 100px 0px;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+
+}
+.box1 span{
+	color:white;
+	font-size: 70px;
+	display: block;
+	background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+background: #48baff; /* Old browsers */
+background: -moz-linear-gradient(left,  #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+;
+	height: 100px;
+	line-height: 100px;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.box .wrap .box1 h3{
+	font-size: 22px;
+	color:#2d3950;
+}
+.box1 h4{
+	font-size: 15px;
+	color:#999999;
+	font-weight: 400;
+}
+#gallery{
+	text-align: center;
+	background-color:#f6f9f9;
+	min-height: 100px;
+	padding: 80px 225px; 
+}
+#gallery h4{
+	font-size: 15px;
+	font-weight: 400;
+	color: #909090;
+	text-align: center;
+	margin: 30px 0px 90px;
+}
+#gallery h1{
+	font-size: 41px;
+	font-weight: 400;
+	color:#2d3950;
+	margin: 0px;
+}
+.gallery{
+	
+}
+.gallery-content{
+	display: flex;
+	justify-content: space-between;
+}
+.gallery-item{
+	width: 30%;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+.gallery-item .thumbnill img{
+	width: 100%;
+}
+.thumbnill::after{
+	content: "";
+	background-color:  #15a4fa;
+	opacity: 0;
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	bottom: 0%;
+	left: 0;
+	transition: .3s;
+
+
+	
+}
+.gallery-item:hover .thumbnill::after{
+	
+	background-color:  #15a4fa;
+	opacity: .7;
+	cursor: pointer;
+	
+	width: 100%;
+	height: 100%;
+	bottom:  0%;
+	transition: .1s all ease-in-out;
+}
+.gallery-icon{
+	position: absolute;
+	opacity: 0;
+	top: 70%;
+	left: 50%;
+		transition: .1s;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+.gallery-item:hover .gallery-icon{
+	opacity: 1;
+	top:50%;
+	transition: .4s;
+	cursor: pointer;
+}
+.gallery-icon ul{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+	text-align: center;
+}
+.gallery-icon ul li{
+	list-style: none;
+	height: 42px;
+	width: 42px;
+	line-height: 42px;
+	text-align: center;
+	align-items: center;
+	margin: 0 10px;
+	border: 1px solid white;
+	border-radius: 3px;
+	
+	
+}
+.gallery-icon ul li a{
+	color:white;
+}
+footer{
+	margin: 0;
+	padding: 0;
+}
+footer .foot-container{
+	display: flex;
+	justify-content: space-between;
+	padding:  25px 230px;
+	align-items: center;
+}
+
+.copy{
+	width: 45%;
+		font-size: 15px;
+	color: #999999;
+	font-weight: 400;
+
+
+}
+
+.icons ul{
+	display: flex;
+	width: 45%;
+	text-align: center;
+}
+.icons ul li{
+	list-style: none;
+}
+.icons ul li a{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	display: block;
+	background-color: #15a4fa;
+	color:white;
+	margin-left: 10px;
+		font-size: 15px;
+}
+.icons ul li a:hover{
+	border-radius: 5px;
+}
+#contact-us{
+	padding: 70px;
+	background-image: url(../image/Strict-Recovered.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.contact-us::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(45, 57, 80, 0.8);
+	position: absolute;
+	z-index: -1;
+}
+.contact-us .contact h1 {
+	color:white;
+}
+.contact-us .contact h4{
+	color:#999;
+}
+.contact-form{
+	width: 560px;
+
+	margin:0 auto;
+}
+.contact-form input[type="text"], input[type="email"], textarea{
+		width: 542px;
+	padding: 0;
+	border:none;
+	margin-top: 10px;
+	padding: 20px 0px 20px 15px;
+	border: 1px solid #9ba1aa;
+	border-radius: 3px;
+	background-color: transparent;
+}
+.contact-form input[type="text"], input[type="email"], textarea:focus{
+	outline: none;
+}
+.contact-form input::placeholder{
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+}
+.contact-form textarea::placeholder{
+
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+}
+.form-submit ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	text-align: center;
+	align-items: center;
+
+}
+.form-submit ul li{
+	display: inline;
+}
+.form-submit ul li label{
+	color:#fff;
+	font-size: 15px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.form-submit ul li input[type=checkbox]{
+	height:17px;
+	width:17px;
+	background-color:  #9ba2ab;
+}
+.form-submit ul li:first-child{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-submit ul li button{
+	margin:0;
+	padding: 16px 50px;
+		font-weight: 400;
+	font-size: 18px;
+	border-radius: 3px;
+	background-color: transparent;
+	border:1px solid  #15a4fa;
+	color:white;
+}
+.form-submit ul li button:hover{
+	background-color: #15a4fa;
+	transition: .3s; 
+	cursor: pointer;
+}
